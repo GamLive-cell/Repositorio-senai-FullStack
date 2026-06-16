@@ -3,7 +3,7 @@
 
 **Turma:** Programador  full stack - senai 
 
-**Unidade Curricular:** loíca da programção 
+**Unidade Curricular:** logíca da programação 
 
 **Professor:** Gabriel Dias
 
@@ -12,3 +12,5 @@
 - Laura Teixeira
 
 ---
+
+Repositório destinado à entrega das atividades práticas desenvolvidas durante a disciplina de Lógica de Programação.
