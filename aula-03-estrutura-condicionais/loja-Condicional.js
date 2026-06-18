@@ -17,7 +17,7 @@ switch (formaPagamento) {
 case "pix":
  desconto += valorFinal * 0.05;
 valorFinal -= valorFinal *0.05;
-brack;
+break;
 
 
 case "boleto":
@@ -44,5 +44,7 @@ default:
   let totalPagar = valorFinal + frete;
 
   console.log("Valor original: R$", valorCompra);
-  console.log("Desconto aplicado: R$", desc)
+  console.log("Desconto aplicado: R$", desconto.toFixed(2));
+  console.log("Frete: R$", frete.toFixed(2));
+  console.log("Total a pagar: R$", totalPagar.toFixed(2));
             
