@@ -1,13 +1,13 @@
 let valorCompra = 150;
 let temCupom = true;
-let isEstudante = false;
+let ehAlunoSENAI = false;
 let formaPagamento = "pix";
 
 let desconto = 0;
 let frete = 0;
 let valorFinal = valorCompra;
 
-if (temCupom || isEstudante) {
+if (temCupom || ehAlunoSENAI) {
     desconto += valorCompra * 0.10;
 }
 
