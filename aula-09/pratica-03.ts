@@ -4,9 +4,9 @@ class Carro {
     ano: 2020;
 
     constructor (marca: string, modelo: string, ano: number) {
-        this.marca = "chevrolet";
-        this.modelo = "onix";
-        this.ano = 2020;
+        this.marca = "marca";
+        this.modelo = "modelo";
+        this.ano = ano;
     }
     
     exibirDetalhes() : void {
